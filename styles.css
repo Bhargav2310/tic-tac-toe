@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #318fb5;
+}
+
+.head {
+    color: white;
+    margin: 35px auto;
+    text-align: center;
+    font-family: "Alata", sans-serif;
+    font-size: 60px;
+}
+
+.status {
+    color: white;
+    margin: 35px auto;
+    text-align: center;
+    font-family: "Alata", sans-serif;
+    font-size: 60px;
+}
+
+.top-bar {
+    text-align: center;
+}
+
+.restart {
+    position: absolute;
+    top: 30px;
+    right: 300px;
+    padding: 20px;
+    width: 50px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+
+.restart:hover {
+    background-color: #fff;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+    background-color: #b0cac7;
+    border: 5px solid white;
+    border-radius: 28px;
+}
+
+.container > div {
+    text-align: center;
+    height: 200px;
+    color: #005086;
+    vertical-align: middle;
+    transition: all 0.3s ease-in-out;
+}
+
+.container > div:hover {
+    border-radius: 28px;
+    background-color: #f7d6bf;
+}
+
+.container > div p {
+    font-size: 48px;
+    margin: 80px auto;
+    user-select: none;
+}
